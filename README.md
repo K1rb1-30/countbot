@@ -173,12 +173,13 @@ bot-contadores/
 
 ## 💡 Errores comunes y soluciones
 
-Problema	Causa	Solución
-❌ El bot no responde a los comandos	El bot no tiene permiso para leer o enviar mensajes en el canal	Asegúrate de que el bot tenga permisos de “Leer mensajes” y “Enviar mensajes”
-⚠️ No se muestran los botones	El bot no tiene permisos para “Gestionar mensajes” o el canal no está configurado correctamente	Ejecuta de nuevo !set_canal #canal
-🚫 “No tienes permiso para usar este comando”	No eres admin ni tienes el rol autorizado	Usa !set_rol o pide a un admin que te dé el rol correspondiente
-💾 Los contadores se reinician al apagar el bot	El archivo contadores.json no se guarda correctamente	Asegúrate de que el bot tenga permisos de escritura en la carpeta del proyecto
-🪵 No aparecen logs	No configuraste el canal de logs	Usa !set_logs #canal
+| Problema |	Causa |	Solución |
+|----------|----------|----------|
+|❌ El bot no responde a los comandos |	El bot no tiene permiso para leer o enviar mensajes en el canal |	Asegúrate de que el bot tenga permisos de “Leer mensajes” y “Enviar mensajes” |
+|⚠️ No se muestran los botones	El bot no tiene permisos para “Gestionar mensajes” o el canal no está configurado correctamente	Ejecuta de nuevo !set_canal #canal
+|🚫 “No tienes permiso para usar este comando”	No eres admin ni tienes el rol autorizado	Usa !set_rol o pide a un admin que te dé el rol correspondiente
+|💾 Los contadores se reinician al apagar el bot |	El archivo contadores.json no se guarda correctamente |	Asegúrate de que el bot tenga permisos de escritura en la carpeta del proyecto
+|🪵 No aparecen logs |	No configuraste el canal de logs |	Usa !set_logs #canal
 
 ## ❤️ Créditos
 
