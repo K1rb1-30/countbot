@@ -2,6 +2,9 @@ import discord
 from discord.ext import commands
 import json
 from datetime import datetime
+import os
+import webserver
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 
 # --- Configuración base ---
 intents = discord.Intents.default()
@@ -235,4 +238,5 @@ async def resetear(ctx, nombre: str = None):
     guardar()
     await actualizar_mensaje(ctx.guild)
 
-bot.run("TU_TOKEN_AQUI")
+webserver.keep_alive()
+bot.run("DISCORD_TOKEN")
